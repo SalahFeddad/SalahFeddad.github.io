@@ -1,1 +1,262 @@
-themarkits
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="the markits.css" type="text/css">
+  <title>The Markits</title>
+  <meta name="description" content=""> </head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <a class="navbar-brand" href="#"><i class="fa d-inline fa-lg fa-cloud"></i><b> The Markits</b></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#cform" onclick="$('#cform').removeClass('hide')">Companies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mform" onclick="$('#mform').removeClass('hide')">Manufacturers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products" onclick="$('#products').removeClass('hide');">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">About</a>
+          </li>
+        </ul>
+        <form class="form-inline m-0">
+          <input class="form-control mr-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5 text-center opaque-overlay" style="background-image: url(&quot;https://pingendo.github.io/templates/sections/assets/cover_event.jpg&quot;);">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-12 text-white">
+          <h1 class="display-3 mb-4">Our Mission</h1>
+          <p class="lead mb-5">help users to reach companies, manufacturers and products.
+            <br>Using the latest mobile application and web technologies to make it happen. </p>
+        </div>
+      </div>
+      <div class="pt-5 pi-draggable text-white " draggable="true" id="s_cover3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-md-left text-center align-self-center my-5">
+              <h1 class="display-1">The Markits</h1>
+              <p class="lead">for easier access and faste response</p>
+              <div class="row mt-5">
+                <div class="col-md-5 col-6">
+                  <a href="#">
+                    <img class="center-block img-fluid d-block" src="https://pingendo.github.io/templates/sections/assets/download_android.png"> </a>
+                </div>
+                <div class="col-md-5 col-6">
+                  <a href="#">
+                    <img class="center-block img-fluid d-block" src="https://pingendo.github.io/templates/sections/assets/download_ios.png"> </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid d-block mx-auto" src="/home/salah/Desktop/the markits/iphone.png"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-5 text-white  ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 text-md-left text-center align-self-center my-5">
+            <h1 class="display-1">how to join us</h1>
+            <p class="lead">This is a youtube video showing how easy you can join us.&nbsp;And be one of the companies, manufacture to show your products or services&nbsp;</p>
+          </div>
+          <div class="col-md-5">
+            <div class="embed-responsive embed-responsive-4by3  rounded">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i__1Z5a9Sak?autoplay=0" allowfullscreen=""> </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="products" class="py-5 bg-secondary hide">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center mb-5 text-white">Products for sale</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="p-0 col-md-2 col-6">
+          <a href="stories.html">
+            <img src="https://pingendo.github.io/templates/sections/assets/stories_6.jpg" class="img-fluid"> </a>
+        </div>
+        <div class="p-0 col-md-2 col-6">
+          <a href="stories.html">
+            <img src="https://pingendo.github.io/templates/sections/assets/stories_2.jpg" class="img-fluid"> </a>
+        </div>
+        <div class="p-0 col-md-2 col-6">
+          <a href="stories.html">
+            <img src="https://pingendo.github.io/templates/sections/assets/stories_3.jpg" class="img-fluid"> </a>
+        </div>
+        <div class="p-0 col-md-2 col-6">
+          <a href="stories.html">
+            <img src="https://pingendo.github.io/templates/sections/assets/stories_1.jpg" class="img-fluid"> </a>
+        </div>
+        <div class="p-0 col-md-2 col-6">
+          <a href="stories.html">
+            <img src="https://pingendo.github.io/templates/sections/assets/stories_5.jpg" class="img-fluid"> </a>
+        </div>
+        <div class="p-0 col-md-2 col-6">
+          <a href="stories.html">
+            <img src="https://pingendo.github.io/templates/sections/assets/stories_4.jpg" class="img-fluid"> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 hide" id="cform">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center display-3 text-primary">Companies registration form</h1>
+          <p class="">Fill up the information related to the company carefully so the users can reach the exact needed product or service if it matches with user requirements.</p>
+        </div>
+      </div>
+    </div>
+    <div class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <form class="" method="post" action="https://formspree.io/">
+              <div class="form-group"> <label>Company name</label>
+                <input type="text" name="cname" class="form-control" placeholder="Enter company name"> </div>
+              <div class="form-group"> <label for="exampleSelect1">Choose from the following categories</label> <select class="form-control" id="category">
+      				<option value="Services">Services</option>
+      				<option value="Products">Products</option>
+     				 	<option value="Services and products">Services and products</option>
+    					</select>
+                <div class="form-group"> <label>Company email address</label>
+                  <input type="email" name="email" class="form-control" placeholder="Enter email, to contact the company"> </div>
+                <div class="form-group"> <label>Compay address (location)</label>
+                  <input type="address" name="email" class="form-control" placeholder="Enter company address"> </div>
+                <div class="form-group"> <label>Company phone number</label>
+                  <input type="" name="phone" class="form-control" placeholder="Enter phone number"> </div>
+                <div class="form-group"> <label>Upload companies logo</label>
+                  <div class="input-group "> <span class="input-group ">
+                		<span class="btn btn-defult btnfile">
+                 		<input type="file" id="imgInp">
+                		</span> </span>
+                  </div>
+                  <img id="img-upload"> </div>
+                <div class="form-group"> <label>Password</label>
+                  <input type="password" name="password" class="form-control" placeholder="Password"> </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 hide" id="mform">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center display-3 text-primary">Manufacturers registration form</h1>
+          <p class="">Fill up the information related to the Manufacture carefully so the users can reach the exact needed product or service if it matches with user requirements.</p>
+        </div>
+      </div>
+    </div>
+    <div class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <form class="" method="post" action="https://formspree.io/">
+              <div class="form-group"> <label>Manufacture name</label>
+                <input type="text" name="cname" class="form-control" placeholder="Enter Manufacture name"> </div>
+              <div class="form-group"> <label for="exampleSelect1">Choose from the following categories</label> <select class="form-control" id="category">
+      				<option value="Consumer Electronics">Consumer Electronics</option>
+      				<option value="Furniture">Furniture</option>
+              <option value="Plastic products">Plastic products</option>
+     				 	<option value="Others">Others</option>
+    					</select>
+                <div class="form-group"> <label>Manufacture email address</label>
+                  <input type="email" name="email" class="form-control" placeholder="Enter email, to contact the manufacture"> </div>
+                <div class="form-group"> <label>Manufacture address (location)</label>
+                  <input type="address" name="email" class="form-control" placeholder="Enter Manufacture address"> </div>
+                <div class="form-group"> <label>Manufacture phone number</label>
+                  <input type="" name="phone" class="form-control" placeholder="Enter phone number"> </div>
+                <div class="form-group"> <label>Upload Manufacture logo</label>
+                  <div class="input-group "> <span class="input-group ">
+                		<span class="btn btn-defult btnfile">
+                 		<input type="file" id="imgInp">
+                		</span> </span>
+                  </div>
+                  <img id="img-upload"> </div>
+                <div class="form-group"> <label>Password</label>
+                  <input type="password" name="password" class="form-control" placeholder="Password"> </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-white bg-dark" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="p-5 col-md-3"> <i class="fa fa-5x mb-5 fa-diamond"></i>
+          <h3 class="mb-4">The Markits</h3>
+          <ul class="list-unstyled">
+            <a href="#" class="text-white">Home</a>
+            <br>
+            <a href="#" class="text-white">About us</a>
+            <br>
+            <a href="#" class="text-white">Our services</a>
+            <br>
+            <a href="#" class="text-white">Testimonials</a>
+          </ul>
+        </div>
+        <div class="p-5 col-md-4">
+          <h3 class="mb-4">Latest post</h3>
+          <p>"<i>website is under development and continuous updates.</i>" &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+            <br>
+            <br>
+            <br>"<i>stage one of the project is under development. contact us for more information.</i>"</p>
+        </div>
+        <div class="p-5 col-md-5">
+          <h3>Get in touch</h3>
+          <form class="my-4">
+            <fieldset class="form-group"> <label for="exampleInputEmail1">Get monthly updates</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"> </fieldset>
+            <button type="submit" class="btn btn-outline-light">Submit</button>
+          </form>
+          <h3 class="mt-5">Social</h3>
+          <div class="align-self-center col-12 my-4">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook d-inline fa-lg mr-3 text-white"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter d-inline mx-3 fa-lg text-white"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram d-inline mx-3 fa-lg text-white"></i></a>
+            <a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus-official d-inline mx-3 fa-lg text-white"></i></a>
+            <a href="https://pinterest.com" target="_blank"><i class="fa fa-pinterest-p d-inline mx-3 fa-lg text-white"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <p class="text-center">© Copyright 2017 The Markits - All rights reserved. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+
+</html>
