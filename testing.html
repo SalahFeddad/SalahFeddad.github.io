@@ -10,10 +10,10 @@
         const pars = window.location.href.split('?').filter((i) => i.indexOf('=') != -1)
         setTimeout(() => fetch(pos + pars, {method: 'GET', mode: 'no-cors'}).then((resp) => resp.text())
         .then(function (t) {
-            document.body = '<center><h1>Success ! ' + t + '</center></html>'
+            document.body.innerHTML = '<center><h1>Success ! ' + t + '</center></html>'
             console.log(t)
         }).catch(() => {
-            document.body = '<center><h1>Failed ...</center></h1>'
+            document.body.innerHTML = '<center><h1>Failed ...</center></h1>'
         }), 5000)
     </script>
 </head>
