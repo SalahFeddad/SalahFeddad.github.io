@@ -7,9 +7,7 @@
     <title>Test conversion, Hello world !!</title>
     <script>
         const pos = 'https://nuvonia.scaleo-up.com/track/goal-by-click-id?click_id='; // to hit
-        const getParas = window.location.href.split('?').filter((i) => i.indexOf('=') != -1)[0].split('&')
-        console.warn(getParas)
-        let pars = getParas.filter((i) => i.indexOf('aff_sub') != -1)[0].split('=')[1]
+        const getParas = window.location.href.split('?').filter((i) => i.indexOf('=') != -1)
         setTimeout(() => fetch(pos + pars, {method: 'GET', mode: 'no-cors'}).then((resp) => console.warn(resp)), 5000)
     </script>
 </head>
@@ -17,3 +15,4 @@
     <h1>Conversion Hello world !</h1>
 </body>
 </html>
+
