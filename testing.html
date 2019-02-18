@@ -8,7 +8,13 @@
     <script>
         const pos = 'https://nuvonia.scaleo-up.com/track/goal-by-click-id?'; // to hit
         const pars = window.location.href.split('?').filter((i) => i.indexOf('=') != -1)
-        setTimeout(() => fetch(pos + pars, {method: 'GET', mode: 'no-cors'}).then((resp) => console.warn(resp)), 5000)
+        setTimeout(() => fetch(pos + pars, {method: 'GET', mode: 'no-cors'}).then((resp) => resp.text())
+        .then(function (t) {
+            document.body = '<center><h1>Success ! ' + t + '</center></html>'
+            console.log(t)
+        }).catch(() => {
+            document.body = '<center><h1>Failed ...</center></h1>'
+        }), 5000)
     </script>
 </head>
 <body>
